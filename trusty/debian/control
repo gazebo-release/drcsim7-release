@@ -1,0 +1,78 @@
+Source: drcsim5
+Standards-Version: 3.9.6
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Section: devel
+Priority: extra
+Build-Depends: cmake,
+ debhelper (>= 7.0.50~),
+ libgazebo5-dev,
+ ros-indigo-std-msgs,
+ ros-indigo-common-msgs,
+ ros-indigo-image-common,
+ ros-indigo-geometry,
+ ros-indigo-geometry-experimental,
+ ros-indigo-joint-state-publisher,
+ ros-indigo-image-pipeline,
+ ros-indigo-image-transport-plugins,
+ ros-indigo-actionlib,
+ ros-indigo-cmake-modules,
+ ros-indigo-control-msgs,
+ ros-indigo-image-transport,
+ ros-indigo-nav-msgs,
+ ros-indigo-nodelet-topic-tools,
+ ros-indigo-controller-manager,
+ ros-indigo-robot-state-publisher,
+ ros-indigo-ros,
+ ros-indigo-rosbuild,
+ ros-indigo-tf,
+ ros-indigo-trajectory-msgs,
+ ros-indigo-gazebo5-plugins,
+ osrf-common (>1.1.0-3),
+ sandia-hand (>5.2.0-3)
+Homepage: http://theroboticschallenge.org
+
+Package: drcsim5
+Architecture: any
+Section: devel
+Priority: extra
+Depends: libgazebo5-dev,
+ ros-indigo-std-msgs,
+ ros-indigo-common-msgs,
+ ros-indigo-image-common,
+ ros-indigo-geometry,
+ ros-indigo-controller-manager,
+ ros-indigo-geometry-experimental,
+ ros-indigo-joint-state-publisher,
+ ros-indigo-image-transport-plugins,
+ ros-indigo-actionlib,
+ ros-indigo-cmake-modules,
+ ros-indigo-control-msgs,
+ ros-indigo-image-transport,
+ ros-indigo-nav-msgs,
+ ros-indigo-nodelet-topic-tools,
+ ros-indigo-robot-state-publisher,
+ ros-indigo-ros,
+ ros-indigo-rosbuild,
+ ros-indigo-tf,
+ ros-indigo-trajectory-msgs,
+ ros-indigo-xacro,
+ ros-indigo-gazebo5-ros,
+ ros-indigo-gazebo5-plugins,
+ ros-indigo-gazebo5-msgs,
+ ros-indigo-laser-assembler,
+ osrf-common (>1.1.0-3),
+ sandia-hand (>5.2.0-3),
+ ${misc:Depends}
+Conflicts: drcsim
+Description: Darpa Robotics Challenge (DRC) simulator
+ Building upon Gazebo simulator, the DRC Simulator, or DRCSim, comprises additional worlds, models, and code that is specifically required to simulate the DRC domain.
+Homepage: http://theroboticschallenge.org
+
+Package: drcsim5-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends:
+    drcsim5 (= ${binary:Version}), ${misc:Depends}
+Description: debugging symbols for drcsim
+ This package contains the debugging symbols for DRC simulator

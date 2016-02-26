@@ -1,0 +1,3 @@
+/opt/ros/indigo/share/multisense_sl_description /opt/ros/indigo/share/drcsim_model_resources/gazebo_models/environments/multisense_sl_description 
+/opt/ros/indigo/share/atlas_description /opt/ros/indigo/share/drcsim_model_resources/gazebo_models/environments/atlas_description
+/opt/ros/indigo/share/irobot_hand_description /opt/ros/indigo/share/drcsim_model_resources/gazebo_models/environments/irobot_hand_description 
