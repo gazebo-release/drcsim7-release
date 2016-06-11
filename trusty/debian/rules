@@ -37,7 +37,7 @@ override_dh_shlibdeps:
 
 override_dh_auto_install:
 	. "/opt/ros/indigo/setup.sh" && \
-	dh_auto_install --destdir=debian/drcsim5
+	dh_auto_install --destdir=debian/drcsim7
 
 override_dh_auto_test:
 	echo -- Skipping tests
@@ -45,4 +45,4 @@ override_dh_auto_test:
 	true
 
 override_dh_strip:
-	dh_strip --dbg-package=drcsim5-dbg
+	dh_strip --dbg-package=drcsim7-dbg

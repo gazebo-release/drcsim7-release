@@ -1,11 +1,11 @@
-Source: drcsim5
+Source: drcsim7
 Standards-Version: 3.9.6
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: devel
 Priority: extra
 Build-Depends: cmake,
  debhelper (>= 7.0.50~),
- libgazebo5-dev,
+ libgazebo7-dev,
  ros-indigo-std-msgs,
  ros-indigo-common-msgs,
  ros-indigo-image-common,
@@ -26,16 +26,16 @@ Build-Depends: cmake,
  ros-indigo-rosbuild,
  ros-indigo-tf,
  ros-indigo-trajectory-msgs,
- ros-indigo-gazebo5-plugins,
+ ros-indigo-gazebo7-plugins,
  osrf-common,
  sandia-hand 
 Homepage: http://theroboticschallenge.org
 
-Package: drcsim5
+Package: drcsim7
 Architecture: any
 Section: devel
 Priority: extra
-Depends: libgazebo5-dev,
+Depends: libgazebo7-dev,
  ros-indigo-std-msgs,
  ros-indigo-common-msgs,
  ros-indigo-image-common,
@@ -56,9 +56,9 @@ Depends: libgazebo5-dev,
  ros-indigo-tf,
  ros-indigo-trajectory-msgs,
  ros-indigo-xacro,
- ros-indigo-gazebo5-ros,
- ros-indigo-gazebo5-plugins,
- ros-indigo-gazebo5-msgs,
+ ros-indigo-gazebo7-ros,
+ ros-indigo-gazebo7-plugins,
+ ros-indigo-gazebo7-msgs,
  ros-indigo-laser-assembler,
  ros-indigo-stereo-image-proc,
  osrf-common,
@@ -69,11 +69,11 @@ Description: Darpa Robotics Challenge (DRC) simulator
  Building upon Gazebo simulator, the DRC Simulator, or DRCSim, comprises additional worlds, models, and code that is specifically required to simulate the DRC domain.
 Homepage: http://theroboticschallenge.org
 
-Package: drcsim5-dbg
+Package: drcsim7-dbg
 Architecture: any
 Section: debug
 Priority: extra
 Depends:
-    drcsim5 (= ${binary:Version}), ${misc:Depends}
+    drcsim7 (= ${binary:Version}), ${misc:Depends}
 Description: debugging symbols for drcsim
  This package contains the debugging symbols for DRC simulator
