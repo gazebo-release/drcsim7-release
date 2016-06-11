@@ -1,5 +1,5 @@
-drcsim7 (5.1.1-1~trusty) trusty; urgency=medium
+drcsim7 (7.0.0-1~trusty) trusty; urgency=medium
 
-  * drcsim7 5.1.1-1 release
+  * drcsim7 7.0.0-1 release
 
- -- Nate Koenig <nate@osrfoundation.org>  Thu, 28 May 2015 17:29:34 -0700
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Sat, 11 Jun 2016 02:36:47 +0200
