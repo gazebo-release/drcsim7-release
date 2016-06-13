@@ -1,3 +1,9 @@
+drcsim7 (7.0.0-1~trusty) trusty; urgency=medium
+
+  * drcsim7 7.0.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 14 Jun 2016 01:56:23 +0200
+
 drcsim7 (5.1.1-1~trusty) trusty; urgency=medium
 
   * drcsim7 5.1.1-1 release
