@@ -28,7 +28,8 @@ Build-Depends: cmake,
  ros-indigo-trajectory-msgs,
  ros-indigo-gazebo7-plugins,
  osrf-common,
- sandia-hand 
+ sandia-hand,
+ libtinyxml2-dev
 Homepage: http://theroboticschallenge.org
 
 Package: drcsim7
@@ -63,6 +64,7 @@ Depends: libgazebo7-dev,
  ros-indigo-stereo-image-proc,
  osrf-common,
  sandia-hand,
+ libtinyxml2-dev,
  ${misc:Depends}
 Conflicts: drcsim
 Description: Darpa Robotics Challenge (DRC) simulator
